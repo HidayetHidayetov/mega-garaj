@@ -117,7 +117,7 @@ export default function Home() {
           </div>
           <div className="mx-auto mt-10 grid max-w-2xl grid-cols-2 gap-3 sm:grid-cols-4">
             {[
-              { v: 8, s: " ilə qədər", l: "PPF zəmanət" },
+              { v: 8, s: " il", l: "PPF zəmanət" },
               { v: 500, s: "+", l: "Məmnun müştəri" },
               { v: 9, s: "", l: "xidmət istiqaməti" },
               { v: 40, s: "%", l: "endirim kampaniyası" },

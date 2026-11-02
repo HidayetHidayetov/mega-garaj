@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { MobileNav } from "./mobile-nav";
 
 export const metadata: Metadata = {
   title: "Mega Garaj — PPF, Rəngsaz, Detailing | Bakı",
@@ -13,10 +14,11 @@ const WA = "https://wa.me/994503256676";
 function Nav() {
   return (
     <header className="sticky top-0 z-50 border-b border-[#d4af37]/20 bg-black/85 backdrop-blur">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-        <a href="/" className="text-xl font-black tracking-wide">
+      <div className="relative mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+        <a href="/" className="flex items-center gap-2 text-xl font-black tracking-wide">
+          <img src="/mg-logo.svg" alt="Mega Garaj" className="h-9 w-9" />
           <span className="gold-text">MEGA GARAJ</span>
-          <span className="ml-2 hidden text-xs font-medium text-neutral-400 sm:inline">
+          <span className="ml-1 hidden text-xs font-medium text-neutral-400 sm:inline">
             detailing • Bakı
           </span>
         </a>
@@ -27,10 +29,11 @@ function Nav() {
           <a href="/blog">Blog</a>
           <a href="/elaqe">Əlaqə</a>
         </nav>
-        <div className="flex gap-2">
+        <div className="flex items-center gap-2">
           <a href={`tel:+994503256676`} className="gold-btn rounded-full px-4 py-2 text-sm">
             {PHONE}
           </a>
+          <MobileNav />
         </div>
       </div>
     </header>
