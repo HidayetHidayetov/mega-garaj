@@ -96,7 +96,7 @@ export default function Home() {
             BAKI • BUGÜN QƏBUL VAR • 050 325 66 76
           </div>
           <h1 className="mx-auto mt-5 max-w-3xl text-5xl font-black leading-[1.02] md:text-7xl">
-            Maşının <span className="gold-text">zirihi</span>
+            Maşının <span className="gold-text">zirehi</span>
             <br />
             burada geyilir.
           </h1>
