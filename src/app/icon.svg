@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="mg-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7e08a"/>
+      <stop offset="0.45" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#8a6d1c"/>
+    </linearGradient>
+    <linearGradient id="mg-shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0a0a0b"/>
+  <rect x="3" y="3" width="58" height="58" rx="11.5" fill="none" stroke="url(#mg-gold)" stroke-width="2.5"/>
+  <path d="M8 14 L28 6 L48 8 L56 14 L56 22 L8 22 Z" fill="url(#mg-shine)" opacity="0.5"/>
+  <text x="32" y="43.5" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="29" letter-spacing="1.5" fill="url(#mg-gold)">MG</text>
+  <rect x="18" y="47" width="28" height="2" rx="1" fill="url(#mg-gold)" opacity="0.8"/>
+</svg>
