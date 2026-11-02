@@ -18,9 +18,6 @@ function Nav() {
         <a href="/" className="flex items-center gap-2 text-base font-black tracking-wide md:text-xl">
           <img src="/mg-logo.svg" alt="Mega Garaj" className="h-8 w-8 md:h-9 md:w-9" />
           <span className="gold-text">MEGA GARAJ</span>
-          <span className="ml-1 hidden text-xs font-medium text-neutral-400 sm:inline">
-            detailing • Bakı
-          </span>
         </a>
         <nav className="hidden gap-5 text-sm text-neutral-300 md:flex">
           <a href="/xidmetler/ppf">PPF</a>
