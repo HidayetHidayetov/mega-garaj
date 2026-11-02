@@ -15,8 +15,8 @@ function Nav() {
   return (
     <header className="sticky top-0 z-50 border-b border-[#d4af37]/20 bg-black/85 backdrop-blur">
       <div className="relative mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-        <a href="/" className="flex items-center gap-2 text-xl font-black tracking-wide">
-          <img src="/mg-logo.svg" alt="Mega Garaj" className="h-9 w-9" />
+        <a href="/" className="flex items-center gap-2 text-base font-black tracking-wide md:text-xl">
+          <img src="/mg-logo.svg" alt="Mega Garaj" className="h-8 w-8 md:h-9 md:w-9" />
           <span className="gold-text">MEGA GARAJ</span>
           <span className="ml-1 hidden text-xs font-medium text-neutral-400 sm:inline">
             detailing • Bakı
@@ -30,7 +30,7 @@ function Nav() {
           <a href="/elaqe">Əlaqə</a>
         </nav>
         <div className="flex items-center gap-2">
-          <a href={`tel:+994503256676`} className="gold-btn rounded-full px-4 py-2 text-sm">
+          <a href={`tel:+994503256676`} className="gold-btn rounded-full px-3 py-1.5 text-xs md:px-4 md:py-2 md:text-sm">
             {PHONE}
           </a>
           <MobileNav />
